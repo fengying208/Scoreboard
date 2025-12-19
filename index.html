@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>撞球記分板</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .hidden { display: none; }
+
+    .card {
+      background: #111;
+      padding: 20px;
+      border-radius: 16px;
+      margin: 10px auto;
+      max-width: 760px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+    }
+
+    button {
+      padding: 14px 20px;
+      margin: 6px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      background: #222;
+      color: #fff;
+    }
+
+    button:active { background: #444; }
+
+    button.mode { width: 120px; }
+
+    input, select {
+      padding: 10px;
+      width: 180px;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1px solid #333;
+      background: #0b0b0b;
+      color: #fff;
+      outline: none;
+    }
+
+    input[type="number"] { width: 120px; }
+
+    .mode-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .mode-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mode-card img {
+      margin-bottom: 10px;
+      filter: invert(1);
+    }
+
+    .scoreboard {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 16px;
+      margin: 28px 0 14px 0;
+    }
+
+    .player {
+      width: 50%;
+      background: #0b0b0b;
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 16px 12px;
+    }
+
+    .name {
+      font-size: 28px;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+      opacity: 0.95;
+    }
+
+    .points {
+      font-size: 96px;
+      font-weight: 800;
+      line-height: 1;
+      margin: 10px 0 14px 0;
+    }
+
+    .controls button {
+      width: 74px;
+      font-size: 30px;
+      padding: 12px 0;
+      border-radius: 14px;
+    }
+
+    #breakInfo {
+      margin-top: 10px;
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    #pool14Controls h3 { margin: 16px 0 10px 0; }
+    #pool14Controls input { width: 120px; }
+
+    @media (max-width: 520px) {
+      .points { font-size: 78px; }
+      .name { font-size: 22px; }
+      .controls button { width: 64px; font-size: 28px; }
+    }
+  </style>
+</head>
+
+<body>
+<h1>🎱 撞球記分板</h1>
+<p>（此檔案由 ChatGPT 產生，可直接上傳到 GitHub Pages 使用）</p>
+</body>
+</html>
